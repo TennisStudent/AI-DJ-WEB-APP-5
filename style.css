@@ -1,0 +1,50 @@
+body
+{
+    background-size: cover;
+}
+.heading_div
+{
+    width: 100%;
+    margin-top: 0;
+    font-size: 24px;
+}
+#note
+{
+    font-size: 18px;
+}
+#song
+{
+    margin-top: 20px;
+    font-size: 24px;
+}
+canvas
+{
+    width: 550;
+    height: 450;
+    margin-top: 100px;
+    border: 5px solid white;
+    border-radius: 20px;
+
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example
+{
+    from{
+        box-shadow: 0px 0px 30px rgb(0, 255, 98);
+    }
+    to{
+        box-shadow: 0px 0px 30px rgb(0, 132, 255);
+    }
+}
+.copy-right-footer
+{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color:darkblue;
+    color: white;
+    line-height: 3;
+    text-align: center;
+}
